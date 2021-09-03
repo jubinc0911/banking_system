@@ -1,0 +1,32 @@
+Script started on Sat 31 Oct 2020 05:07:48 PM HST
+]0;jubinc@uhx02:~/project1[?1034huhx02:/home/j/jubinc/project1% ls -l
+total 40
+drwxr-xr-x. 3 jubinc uh   205 Oct 30 19:32 [0m[01;34mbackup[0m
+-rw-r--r--. 1 jubinc uh 12143 Oct 30 21:59 database.c
+-rw-r--r--. 1 jubinc uh   814 Oct 28 18:35 database.h
+-rw-r--r--. 1 jubinc uh   315 Oct 26 17:01 Makefile
+-rw-r--r--. 1 jubinc uh     0 Oct 31 17:07 proof.txt
+-rw-r--r--. 1 jubinc uh   586 Oct 28 18:35 record.h
+-rw-r--r--. 1 jubinc uh    29 Oct 30 22:19 test.txt
+-rw-r--r--. 1 jubinc uh  9918 Oct 30 22:16 user_interface.c
+]0;jubinc@uhx02:~/project1uhx02:/home/j/jubinc/project1% make
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -o project1 user_interface.o database.o
+]0;jubinc@uhx02:~/project1uhx02:/home/j/jubinc/project1% ls -l
+total 80
+drwxr-xr-x. 3 jubinc uh   205 Oct 30 19:32 [0m[01;34mbackup[0m
+-rw-r--r--. 1 jubinc uh 12143 Oct 30 21:59 database.c
+-rw-r--r--. 1 jubinc uh   814 Oct 28 18:35 database.h
+-rw-r--r--. 1 jubinc uh  7296 Oct 31 17:07 database.o
+-rw-r--r--. 1 jubinc uh   315 Oct 26 17:01 Makefile
+-rwxr-xr-x. 1 jubinc uh 17984 Oct 31 17:07 [01;32mproject1[0m
+-rw-r--r--. 1 jubinc uh     0 Oct 31 17:07 proof.txt
+-rw-r--r--. 1 jubinc uh   586 Oct 28 18:35 record.h
+-rw-r--r--. 1 jubinc uh    29 Oct 30 22:19 test.txt
+-rw-r--r--. 1 jubinc uh  9918 Oct 30 22:16 user_interface.c
+-rw-r--r--. 1 jubinc uh  9360 Oct 31 17:07 user_interface.o
+]0;jubinc@uhx02:~/project1uhx02:/home/j/jubinc/project1% exit
+exit
+
+Script done on Sat 31 Oct 2020 05:07:56 PM HST

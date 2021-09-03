@@ -1,0 +1,468 @@
+Script started on Fri 04 Dec 2020 04:08:35 PM HST
+]0;jubinc@uhx02:~/project2[?1034huhx02:/home/j/jubinc/project2% ./project
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+p
+Print all records in the database
+--------------------- RESULT ---------------------
+There's no record in the system.
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+aaa
+Eneterd a invalid input. Please enter a valid word, or alphabet.
+If you've enterd a captial letter, please enter a lower case letter.
+If you've entera a space, please remove the space
+a
+
+Add a new record in the database.
+Please enter an account number: 
+1234    0
+The account number must be a positive integer.
+Please enter a valid account number
+-1234
+The account number must be a positive integer.
+Please enter a valid account number
+acc
+The account number must be a positive integer.
+Please enter a valid account number
+12345
+Please enter a name.
+Jubin Choi
+Please enter an address.
+Please enter your address (max 79 characters).
+When you are done, please enter $ at the end.
+500 Univesrity Va  AVe  ve.
+Honolulu, HI
+$
+--------------------- RESULT ---------------------
+Successfully added a new record on the database. 
+
+Account Number: 12345
+Name: Jubin Choi
+Address: 500 Univesrity Ave.
+Honolulu, HI
+
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+a
+
+Add a new record in the database.
+Please enter an account number: 
+9234
+Please enter a name.
+Hannah H Lee
+Please enter an address.
+Please enter your address (max 79 characters).
+When you are done, please enter $ at the end.
+1303 Dominis St.
+Honolulu, HI 96822
+$
+--------------------- RESULT ---------------------
+Successfully added a new record on the database. 
+
+Account Number: 9234
+Name: Hannah Lee
+Address: 1303 Dominis St.
+Honolulu, HI 96822
+
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+p
+Print all records in the database
+--------------------- RESULT ---------------------
+
+Account Number: 12345
+Name: Jubin Choi
+Address: 500 Univesrity Ave.
+Honolulu, HI
+
+
+Account Number: 9234
+Name: Hannah Lee
+Address: 1303 Dominis St.
+Honolulu, HI 96822
+
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+f
+Please enter a account number that you want to find.
+9234
+--------------------- RESULT ---------------------
+
+Account Number: 9234
+Name: Hannah Lee
+Address: 1303 Dominis St.
+Honolulu, HI 96822
+
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+d
+Please enter a account number that you want to delete.
+12345
+--------------------- RESULT ---------------------
+Successfully deleted record(s) with account #: 12345
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+p
+Print all records in the database
+--------------------- RESULT ---------------------
+
+Account Number: 9234
+Name: Hannah Lee
+Address: 1303 Dominis St.
+Honolulu, HI 96822
+
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+q
+
+Quit the system.
+]0;jubinc@uhx02:~/project2uhx02:/home/j/jubinc/project2% cat data.txt 
+9234
+Hannah Lee
+1303 Dominis St.
+Honolulu, HI 96822
+$
+]0;jubinc@uhx02:~/project2uhx02:/home/j/jubinc/project2% ./project_debug 
+
+========CURRENTLY ON DEBUGGING MODE========
+Function Called: addRecord
+Account Number: 9234
+Name: Hannah Lee
+Address: 1303 Dominis St.
+Honolulu, HI 96822
+
+============================================
+
+========CURRENTLY ON DEBUGGING MODE========
+Function Called: readfile
+===========================================
+
+========CURRENTLY ON DEBUGGING MODE========
+Function Called: llist (Constructor)
+===========================================
+
+             **************** DUBEG MODE ****************
+
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+p
+Print all records in the database
+--------------------- RESULT ---------------------
+
+Account Number: 9234
+Name: Hannah Lee
+Address: 1303 Dominis St.
+Honolulu, HI 96822
+
+
+========CURRENTLY ON DEBUGGING MODE========
+Function Called: operator<< (printAll)
+===========================================
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+a
+
+Add a new record in the database.
+Please enter an account number: 
+123456
+Please enter a name.
+Summer Kim
+Please enter an address.
+Please enter your address (max 79 characters).
+When you are done, please enter $ at the end.
+1703 Kiamuku Street
+Honolulu, HI
+96814
+$
+
+========CURRENTLY ON DEBUGGING MODE========
+Function Called: getAddress
+Address: 1703 Kiamuku Street
+Honolulu, HI
+96814
+
+Size: 80
+===========================================
+--------------------- RESULT ---------------------
+
+========CURRENTLY ON DEBUGGING MODE========
+Function Called: addRecord
+Account Number: 123456
+Name: Summer Kim
+Address: 1703 Kiamuku Street
+Honolulu, HI
+96814
+
+============================================
+Successfully added a new record on the database. 
+
+Account Number: 123456
+Name: Summer Kim
+Address: 1703 Kiamuku Street
+Honolulu, HI
+96814
+
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+a
+
+Add a new record in the database.
+Please enter an account number: 
+457
+Please enter a name.
+Hyun Lee
+Please enter an address.
+Please enter your address (max 79 characters).
+When you are done, please enter $ at the end.
+2502 Waialae Ave.
+Honolulu, HI 96816
+$
+
+========CURRENTLY ON DEBUGGING MODE========
+Function Called: getAddress
+Address: 2502 Waialae Ave.
+Honolulu, HI 96816
+
+Size: 80
+===========================================
+--------------------- RESULT ---------------------
+
+========CURRENTLY ON DEBUGGING MODE========
+Function Called: addRecord
+Account Number: 457
+Name: Hyun Lee
+Address: 2502 Waialae Ave.
+Honolulu, HI 96816
+
+============================================
+Successfully added a new record on the database. 
+
+Account Number: 457
+Name: Hyun Lee
+Address: 2502 Waialae Ave.
+Honolulu, HI 96816
+
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+p
+Print all records in the database
+--------------------- RESULT ---------------------
+
+Account Number: 123456
+Name: Summer Kim
+Address: 1703 Kiamuku Street
+Honolulu, HI
+96814
+
+
+Account Number: 9234
+Name: Hannah Lee
+Address: 1303 Dominis St.
+Honolulu, HI 96822
+
+
+Account Number: 457
+Name: Hyun Lee
+Address: 2502 Waialae Ave.
+Honolulu, HI 96816
+
+
+========CURRENTLY ON DEBUGGING MODE========
+Function Called: operator<< (printAll)
+===========================================
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+f
+Please enter a account number that you want to find.
+457
+--------------------- RESULT ---------------------
+
+Account Number: 457
+Name: Hyun Lee
+Address: 2502 Waialae Ave.
+Honolulu, HI 96816
+
+
+========CURRENTLY ON DEBUGGING MODE========
+Function Called: findRecord
+Account Number: 457
+============================================
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+q
+
+Quit the system.
+
+========CURRENTLY ON DEBUGGING MODE========
+Function Called: ~llist (Destructor)
+===========================================
+
+========CURRENTLY ON DEBUGGING MODE========
+Function Called: writefile
+===========================================
+
+========CURRENTLY ON DEBUGGING MODE========
+Function Called: cleanup
+===========================================
+]0;jubinc@uhx02:~/project2uhx02:/home/j/jubinc/project2% cat data.txt 
+123456
+Summer Kim
+1703 Kiamuku Street
+Honolulu, HI
+96814
+$
+9234
+Hannah Lee
+1303 Dominis St.
+Honolulu, HI 96822
+$
+457
+Hyun Lee
+2502 Waialae Ave.
+Honolulu, HI 96816
+$
+]0;jubinc@uhx02:~/project2uhx02:/home/j/jubinc/project2% exit
+exit
+
+Script done on Fri 04 Dec 2020 04:11:24 PM HST

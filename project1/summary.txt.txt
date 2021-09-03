@@ -1,0 +1,8 @@
+For the testplan, I editted little bit from the hw6 because at that time I thought the cleanup() function is a function that user can choose. 
+And, thus, I added to choose cleanup function in hw6's testplan. However, it's not the option that user can choose, so I just removed that from
+test plan and editted the expected results little bit.
+
+Basically, my code passes, or conditionally passes all the cases in the testplan. From the first row (test 1) to last row (test 43), I entered the
+information exactly as it is in the testplan. While I was testing the testplan, I noticed that I didn't set up for the confirmation message
+for deleteRecord function. So, I fixed the code and finished the all the test cases. And, there was no big challenge or problem during testing the
+test plan. 

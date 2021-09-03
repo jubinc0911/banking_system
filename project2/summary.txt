@@ -1,0 +1,9 @@
+For project 2, I met all the requirements. I tseted all the functions and checked that all of them work correctly. 
+For testing, I used the same testplan for the project1. While I was testing, some problems were occured, but I fixed them and now they work correctly.
+
+For the additional features/extra credit, I changed the printall function to operator<<, tested, and checked that it works as same as printall function.
+Also, I made copy constructor and overloading assignment operator as well. I copied my code into a test directory and tested for them, and it works
+correctly as well.
+
+Since I'm pretty new to c++, it was kind of challenging project. I needed to research how to read/write file in c++, difference between fgets/fgetc and
+cin.getline/cin.get, constructor, overloading operators, and destructor. From this project, I could learn a lot of things about c++.

@@ -1,0 +1,577 @@
+Script started on Sat 31 Oct 2020 06:30:34 PM HST
+]0;jubinc@uhx02:~/project1[?1034huhx02:/home/j/jubinc/project1% ./project1 
+               Welcome to the ICS 212 Banking System
+           Choose an option by entering the name of the option
+             You may enter a part of the name to access
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+printa
+--------------------- RESULT ---------------------
+There's no record in the system
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+add
+
+Add a new record in the database.
+Please enter an account number: 
+500
+Please enter a name.
+H Jubin Choi
+Please enter your address (max 79 characters).
+When you are done, please enter $ at the end.
+500 University of Hawaa        Ave.
+Honolulu, HI
+96826
+$
+--------------------- RESULT ---------------------
+Successfully added a new record on the database. 
+
+Account Number: 500
+Name: Jubin Choi
+Address: 500 University Ave.
+Honolulu, HI
+96826
+
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+ad
+
+Add a new record in the database.
+Please enter an account number: 
+John
+The account number must be a positive integer.
+Please enter a valid account number.
+1000
+Please enter a name.
+ABCD Street
+Please enter your address (max 79 characters).
+When you are done, please enter $ at the end.
+Somewhere in Honolulu HI
+Zip Code 96822$
+--------------------- RESULT ---------------------
+Successfully added a new record on the database. 
+
+Account Number: 1000
+Name: ABCD Street
+Address: Somewhere in Honolulu HI
+Zip Code 96822
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+a
+
+Add a new record in the database.
+Please enter an account number: 
+1234
+Please enter a name.
+June
+Please enter your address (max 79 characters).
+When you are done, please enter $ at the end.
+1303 Dominis St.
+honolulu        Honolulu, HI
+96822
+$
+--------------------- RESULT ---------------------
+Successfully added a new record on the database. 
+
+Account Number: 1234
+Name: June
+Address: 1303 Dominis St.
+Honolulu, HI
+96822
+
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+prin
+--------------------- RESULT ---------------------
+
+Account Number: 1234
+Name: June
+Address: 1303 Dominis St.
+Honolulu, HI
+96822
+
+
+Account Number: 1000
+Name: ABCD Street
+Address: Somewhere in Honolulu HI
+Zip Code 96822
+
+Account Number: 500
+Name: Jubin Choi
+Address: 500 University Ave.
+Honolulu, HI
+96826
+
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+a
+
+Add a new record in the database.
+Please enter an account number: 
+1000
+Please enter a name.
+Hyun
+Please enter your address (max 79 characters).
+When you are done, please enter $ at the end.
+2502 University
+University of Hawaii at Manoa
+98 6822
+$
+--------------------- RESULT ---------------------
+Successfully added a new record on the database. 
+
+Account Number: 1000
+Name: Hyun
+Address: 2502 University
+University of Hawaii at Manoa
+96822
+
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+fff
+Eneterd a invalid input. Please enter a valid word, or alphabet.
+If you've enterd a captial letter, please enter a lower case letter.
+If you've entera a space, please remove the space
+f
+Please enter a account number that you want to find.
+1000
+--------------------- RESULT ---------------------
+
+Account Number: 1000
+Name: Hyun
+Address: 2502 University
+University of Hawaii at Manoa
+96822
+
+
+Account Number: 1000
+Name: ABCD Street
+Address: Somewhere in Honolulu HI
+Zip Code 96822
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+printall
+--------------------- RESULT ---------------------
+
+Account Number: 1234
+Name: June
+Address: 1303 Dominis St.
+Honolulu, HI
+96822
+
+
+Account Number: 1000
+Name: Hyun
+Address: 2502 University
+University of Hawaii at Manoa
+96822
+
+
+Account Number: 1000
+Name: ABCD Street
+Address: Somewhere in Honolulu HI
+Zip Code 96822
+
+Account Number: 500
+Name: Jubin Choi
+Address: 500 University Ave.
+Honolulu, HI
+96826
+
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+dele
+Please enter a account number that you want to delete.
+500
+--------------------- RESULT ---------------------
+Succesfully deleted record(s) with account #: 500
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+printa
+--------------------- RESULT ---------------------
+
+Account Number: 1234
+Name: June
+Address: 1303 Dominis St.
+Honolulu, HI
+96822
+
+
+Account Number: 1000
+Name: Hyun
+Address: 2502 University
+University of Hawaii at Manoa
+96822
+
+
+Account Number: 1000
+Name: ABCD Street
+Address: Somewhere in Honolulu HI
+Zip Code 96822
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+quit
+
+Quit the system.
+]0;jubinc@uhx02:~/project1uhx02:/home/j/jubinc/project1% ./project1 debug
+
+             **************** DUBEG MODE ****************
+
+
+********CURRENTLY ON DEBUGGING MODE********
+Function Called : addRecord
+Account number: 1234
+Name: June
+Address: 1303 Dominis St.
+Honolulu, HI
+96822
+
+
+********CURRENTLY ON DEBUGGING MODE********
+Function Called : addRecord
+Account number: 1000
+Name: Hyun
+Address: 2502 University
+University of Hawaii at Manoa
+96822
+
+
+********CURRENTLY ON DEBUGGING MODE********
+Function Called : addRecord
+Account number: 1000
+Name: ABCD
+Address: Street
+Somewhere in Honolulu HI
+Zip Code 96822
+
+********CURRENTLY ON DEBUGGING MODE********
+Function Called : readfile
+Filename: record.txt
+               Welcome to the ICS 212 Banking System
+           Choose an option by entering the name of the option
+             You may enter a part of the name to access
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+printall
+--------------------- RESULT ---------------------
+
+Account Number: 1234
+Name: June
+Address: 1303 Dominis St.
+Honolulu, HI
+96822
+
+
+Account Number: 1000
+Name: ABCD
+Address: Street
+Somewhere in Honolulu HI
+Zip Code 96822
+
+Account Number: 1000
+Name: Hyun
+Address: 2502 University
+University of Hawaii at Manoa
+96822
+
+
+********CURRENTLY ON DEBUGGING MODE********
+Function Called : printAllRecords
+No Parameter Passed
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+de
+Please enter a account number that you want to delete.
+1000
+--------------------- RESULT ---------------------
+********CURRENTLY ON DEBUGGING MODE********
+Function Called : deleteRecord
+Account number: 1000
+Succesfully deleted record(s) with account #: 1000
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+pr
+--------------------- RESULT ---------------------
+
+Account Number: 1234
+Name: June
+Address: 1303 Dominis St.
+Honolulu, HI
+96822
+
+
+********CURRENTLY ON DEBUGGING MODE********
+Function Called : printAllRecords
+No Parameter Passed
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+f
+Please enter a account number that you want to find.
+2222
+--------------------- RESULT ---------------------
+There's no record with account #: 2222
+
+********CURRENTLY ON DEBUGGING MODE********
+Function Called : find
+Account number: 2222
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+del
+Please enter a account number that you want to delete.
+9999
+--------------------- RESULT ---------------------
+There's no record with account #: 9999
+********CURRENTLY ON DEBUGGING MODE********
+Function Called : deleteRecord
+Account number: 9999
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+add
+
+Add a new record in the database.
+Please enter an account number: 
+700
+Please enter a name.
+Summer
+Please enter your address (max 79 characters).
+When you are done, please enter $ at the end.
+1378 Kapiolani Blvd.
+J Honolulu HI
+96814
+$
+
+********CURRENTLY ON DEBUGGING MODE********
+Function Called : getAddress
+Address: 1378 Kapiolani Blvd.
+Honolulu HI
+96814
+
+Size: 80
+--------------------- RESULT ---------------------
+
+********CURRENTLY ON DEBUGGING MODE********
+Function Called : addRecord
+Account number: 700
+Name: Summer
+Address: 1378 Kapiolani Blvd.
+Honolulu HI
+96814
+
+Successfully added a new record on the database. 
+
+Account Number: 700
+Name: Summer
+Address: 1378 Kapiolani Blvd.
+Honolulu HI
+96814
+
+
+***********************  ICS 212 Banking System  ***********************
+               Please choose an option from the menu below
+=========================================================================
+
+Add: Add a new record in the databse
+Printall: Print all records in the databse
+Find: Find record(s) with a specific account number
+Delete: Delete existing record(s) from the database using account number
+Quit: Quit the banking system
+
+=========================================================================
+quit
+
+Quit the system.
+
+********CURRENTLY ON DEBUGGING MODE********
+Function Called : writefile
+Filename: record.txt
+
+********CURRENTLY ON DEBUGGING MODE********
+Function Called : cleanup
+No Parameter Passed
+]0;jubinc@uhx02:~/project1uhx02:/home/j/jubinc/project1% cat record.txt 
+1234
+June
+1303 Dominis St.
+Honolulu, HI
+96822
+$
+700
+Summer
+1378 Kapiolani Blvd.
+Honolulu HI
+96814
+$
+]0;jubinc@uhx02:~/project1uhx02:/home/j/jubinc/project1% exit
+exit
+
+Script done on Sat 31 Oct 2020 06:33:30 PM HST
